@@ -1,0 +1,79 @@
+.builderPage {
+  // height: 100%;
+  // min-height: 100vh;
+  background-color: #fff;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  .header {
+    padding: 20px 0 30px;
+    // height: 80px;
+    display: flex;
+    .options {
+      margin-left: auto;
+      // margin-right: 12px;
+      display: flex;
+      align-items: center;
+      padding: 0 12px;
+      .btn {
+        margin: 0 8px;
+        cursor: pointer;
+        &:hover {
+          color: #0070f3;
+        }
+      }
+    }
+  }
+}
+
+
+
+.tableImg {
+  max-height: 80px;
+}
+
+.tableCell {
+  display: flex;
+  flex-direction: row;
+
+  .label {
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+.partView {
+  .header {
+    
+  }
+}
+
+.sep {
+  height: 200px;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  padding: 24px 80px;
+  // margin-left: auto;
+  span {
+    margin-left: auto;
+  }
+  // float: right;
+  // margin-right: 0;
+}
+
+.tabsContainer {
+  display: flex;
+  position: absolute;
+  top: 120px;
+  left: -230px;
+  width: 200px;
+  height: 500px;
+  // border: 1px solid black;
+  // border-radius: 32px;
+  
+  // background: #0070f3;
+}
